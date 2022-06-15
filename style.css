@@ -73,4 +73,6 @@ display: flex;
 background-repeat: no-repeat;
 background-position: center;
 block-size: cover;
+display: flex;
+flex-direction: column;
 }
