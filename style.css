@@ -23,8 +23,19 @@ a{
     text-decoration: none;
     color: inherit;
 }
+button{
+    background-color: transparent;
+    bottom: none;
+    padding: 0;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
 .container{
-    
+    width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
 }
 .header{
 
@@ -34,4 +45,32 @@ a{
     justify-content: space-between;
     align-items: center;
     height: 100px;
+}
+.list{
+display: flex;
+}
+.list__item + .list__item{
+    margin-left: 30px;
+    
+}
+.list__link{
+    width: 40px;
+    height: 40px;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background .3s;
+}
+.list__link:hover{
+       background-color:#C1A1D2;
+}
+
+.header__content{
+    background-image: url(/img/header-bg.png);
+    min-height: calc(100vh - 100px);
+background-repeat: no-repeat;
+background-position: center;
+
 }
