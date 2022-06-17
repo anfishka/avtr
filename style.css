@@ -154,3 +154,7 @@ font-family: 'Corporate-A-Bold';
 .premier__img{
     margin-bottom: 20px;
 }
+.premier__btn{
+    display: block;
+    width: 100%;
+}
