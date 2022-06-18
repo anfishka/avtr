@@ -181,3 +181,6 @@ font-family: 'Corporate-A-Bold';
 .video__img{
     margin-bottom: 25px;
 }
+.video__btn{
+    display: flex;
+}
