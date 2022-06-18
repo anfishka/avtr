@@ -178,3 +178,6 @@ font-family: 'Corporate-A-Bold';
 .video{
     margin-bottom: 150px;
 }
+.video__img{
+    margin-bottom: 25px;
+}
