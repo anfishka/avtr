@@ -225,8 +225,15 @@ gap:14px 44px;
 }
 .design__cell-two{
     grid-row-end: -1;
+    display: flex;
+    align-items: flex-end;
 }
 .design__cell-three{
     grid-column-end: -1;
     grid-row-end: -1;
+    display: flex;
+    align-items: flex-end;
+}
+.design__cell-text{
+    margin-bottom: 15px;
 }
