@@ -214,3 +214,12 @@ font-family: 'Corporate-A-Bold';
 .video__btn:hover path{
     fill: #53A1CB;
 }
+.design__interior{
+display: grid;
+grid-template-columns: 255px 255px auto 330px ;
+grid-template-rows: auto auto;
+gap:14px 44px;
+}
+.design__cell-one{
+    
+}
