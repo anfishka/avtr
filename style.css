@@ -169,7 +169,7 @@ font-family: 'Corporate-A-Bold';
     /*If we have a button our structure will be live*/
     padding: 14px;
     border: 1px solid #F402A2;
-    transition: all 3s;
+    transition: all 2s;
 }
 .premier__btn:hover{
     color: #53A1CB;
@@ -179,6 +179,7 @@ font-family: 'Corporate-A-Bold';
     margin-bottom: 150px;
 }
 .video__img{
+    margin-bottom: 25px;
     margin-bottom: 25px;
 }
 .video__btn{
@@ -204,4 +205,12 @@ font-family: 'Corporate-A-Bold';
 .video__btn:hover{
     color: #53A1CB;
     border: 1px solid #53A1CB;
+}
+
+.video__btn path{
+    transition: all .3s;
+}
+/*SVG we can change with path*/
+.video__btn:hover path{
+    fill: #53A1CB;
 }
