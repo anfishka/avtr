@@ -229,7 +229,8 @@ gap:14px 44px;
 margin-bottom: 100px;
 }
 .design__cell-one{
-  grid-row: 1/3;  
+  grid-row: 1/3; 
+
 }
 .design__cell-two{
     grid-row-end: -1;
@@ -247,6 +248,7 @@ margin-bottom: 100px;
 }
 .design__cell-text{
     margin-bottom: 15px;
+    margin-top: 25px;
 }
 .designer-slider__item{
     margin: 0 30px;
@@ -256,6 +258,9 @@ margin-left: -30px;
 }
 .design-slider{
     padding-bottom: 25px;
+    display: flex;
+    margin-right: -25rem;
+    margin-left: -25rem;
 }
 .arrow{
     position: absolute;
@@ -394,4 +399,7 @@ margin: 0;
 .slick-track{
     margin-left: 0;
 }
+}
+.design-slider{
+   margin-top: 6rem;
 }
