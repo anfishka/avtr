@@ -20,11 +20,12 @@ html{
 
 body{
     font-family: 'Roboto Condensed', sans-serif;
-    background: linear-gradient(180deg #070A1B 0%, #2A3170 100%);
+   background: linear-gradient(180deg, #10071B 0%, #2A3170 100%);
     font-size: 16px;
     font-weight: 400;
     line-height: 120%;
     color: #fff;
+   
 
 }
 
@@ -277,6 +278,8 @@ margin-left: -30px;
     display: flex;
     gap: 60px;
     margin: 150px auto;
+    justify-content: center;
+    text-align: justify;
 }
 .design__box-text{
     margin-bottom:15px ;
@@ -289,6 +292,12 @@ margin-left: -30px;
     display: block;
     object-fit: cover;
     margin: 0 auto;
+}
+@media(max-width:1366px){
+    .footer__inner{
+            height: 150px;
+    }
+
 }
 @media(max-width: 1020px){
     .design__interior{
@@ -346,11 +355,27 @@ width: auto;
     width: 100%;
    }
 }
+@media(max-width: 620px){
+.footer__inner{
+    flex-wrap: wrap;
+    align-content: center;
 
+}
+.footer .list{
+    width: 100%;
+    margin-top: 0;
+    justify-content: center;
+}
+}
 @media(max-width: 520px){
     .header__top{
         flex-wrap: wrap;
         align-content: center;
+}
+.footer__inner{
+    flex-direction: column;
+    padding-top: 10px;
+
 }
 .list{
     justify-content: center;
