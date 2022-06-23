@@ -32,6 +32,9 @@ a{
     text-decoration: none;
     color: inherit;
 }
+img{
+    max-width: 100%;
+}
 button{
     background-color: transparent;
     bottom: none;
@@ -299,7 +302,14 @@ margin-left: -30px;
     font-size: 55px;
    }
    .title-descr{
-    font: size 18px;
+    font-size:18px;
+   }
+   .concept{
+    padding-top: 75px;
+    margin-bottom: 75px;
+   }
+   .concept__text{
+    font-style: 16px;
    }
 }
 
@@ -307,4 +317,12 @@ margin-left: -30px;
     .header__top{
         flex-wrap: wrap;
         align-content: center;
+}
+.list{
+    justify-content: center;
+    padding-top: 10px;
+    width: 100%;
+}
+.title{
+    font-size: 34px;
 }
